@@ -27,20 +27,20 @@ public class Setup {
 	// Europe/Berlin +0100
 	// America/Denver -0600
 
-	public static final String DAY1_START = "2011-06-20T08:00:00.000-07:00";
-	public static final String DAY1_END = "2011-06-20T20:00:00.000-07:00";
+	public static final String DAY1_START = "2011-06-20T08:00:00.000-06:00";
+	public static final String DAY1_END = "2011-06-20T20:00:00.000-06:00";
 	
-	public static final String DAY2_START = "2011-06-21T08:00:00.000-07:00";
-	public static final String DAY2_END = "2011-06-21T21:30:00.000-07:00";
+	public static final String DAY2_START = "2011-06-21T08:00:00.000-06:00";
+	public static final String DAY2_END = "2011-06-21T21:30:00.000-06:00";
 	
-	public static final String DAY3_START = "2011-06-22T08:00:00.000-07:00";
-	public static final String DAY3_END = "2011-06-22T21:30:00.000-07:00";
+	public static final String DAY3_START = "2011-06-22T08:00:00.000-06:00";
+	public static final String DAY3_END = "2011-06-22T21:30:00.000-06:00";
 	
-	public static final String DAY4_START = "2011-06-23T08:00:00.000-07:00";
-	public static final String DAY4_END = "2011-06-23T18:00:00.000-07:00";
+	public static final String DAY4_START = "2011-06-23T08:00:00.000-06:00";
+	public static final String DAY4_END = "2011-06-23T18:00:00.000-06:00";
 	
-	public static final String DAY5_START = "2011-06-24T08:00:00.000-07:00";
-	public static final String DAY5_END = "2011-06-24T18:30:00.000-07:00";
+	public static final String DAY5_START = "2011-06-24T08:00:00.000-06:00";
+	public static final String DAY5_END = "2011-06-24T18:30:00.000-06:00";
 
 	public static final long CONFERENCE_START_MILLIS = ParserUtils.parseTime(DAY1_START);
 	public static final long CONFERENCE_END_MILLIS = ParserUtils.parseTime(DAY5_END);

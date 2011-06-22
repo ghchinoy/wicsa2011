@@ -68,6 +68,11 @@ public class ScheduleActivity extends TabActivity {
         final long thuStart = ParserUtils.parseTime(Setup.DAY4_START);
         final long friStart = ParserUtils.parseTime(Setup.DAY5_START);
         
+        final long monEnd = ParserUtils.parseTime(Setup.DAY1_END);
+        final long tueEnd = ParserUtils.parseTime(Setup.DAY2_END);
+        final long wedEnd = ParserUtils.parseTime(Setup.DAY3_END);
+        final long thuEnd = ParserUtils.parseTime(Setup.DAY4_END);
+        
 
         setupBlocksTab(TAG_MON, monStart);
         setupBlocksTab(TAG_TUE, tueStart);
@@ -78,6 +83,12 @@ public class ScheduleActivity extends TabActivity {
         final long now = System.currentTimeMillis();
         if (now >= friStart) {
             getTabHost().setCurrentTabByTag(TAG_FRI);
+        } else if ( now >= monEnd && now <= wedStart) {
+        	getTabHost().setCurrentTabByTag(TAG_TUE);
+        } else if ( now >= tueEnd && now <= thuStart) {
+        	getTabHost().setCurrentTabByTag(TAG_WED);
+        } else if ( now >= wedEnd && now <= friStart) {
+        	getTabHost().setCurrentTabByTag(TAG_THU);
         } else {
             // Otherwise start with first day
             getTabHost().setCurrentTabByTag(TAG_MON);
