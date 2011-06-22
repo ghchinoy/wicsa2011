@@ -121,6 +121,19 @@
 		<title>Panel</title>
 		<type>session</type>
 	</block>
+	<block>
+		<start>2011-06-22T10:30:00.000-06:00</start>
+		<end>2011-06-22T12:00:00.000-06:00</end>
+		<title>Tool Demo</title>
+		<type>officehours</type>
+	</block>
+	<block>
+		<start>2011-06-22T13:30:00.000-06:00</start>
+		<end>2011-06-22T15:30:00.000-06:00</end>
+		<title>Tool Demo</title>
+		<type>officehours</type>
+	</block>
+	
 	<!-- Thursday, June 23rd 2011 -->
 	<block>
 		<start>2011-06-23T10:00:00.000-06:00</start>
