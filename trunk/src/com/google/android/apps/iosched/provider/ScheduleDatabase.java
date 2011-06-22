@@ -54,7 +54,7 @@ public class ScheduleDatabase extends SQLiteOpenHelper {
     // NOTE: carefully update onUpgrade() when bumping database versions to make
     // sure user data is saved.
 
-    private static final int VER_LAUNCH = 3;
+    private static final int VER_LAUNCH = 4;
     private static final int VER_SESSION_HASHTAG = Setup.VER_SESSION_HASHTAG;
 
     private static final int DATABASE_VERSION = VER_SESSION_HASHTAG;
@@ -348,13 +348,13 @@ public class ScheduleDatabase extends SQLiteOpenHelper {
         // future upgrade cases. Only use "break;" when you want to drop and
         // recreate the entire database.
         int version = oldVersion;
-        switch (version) {
-            case VER_LAUNCH:
-                // Version 19 added column for session hashtags.
-                db.execSQL("ALTER TABLE " + Tables.SESSIONS + " ADD COLUMN "
-                        + SessionsColumns.HASHTAG + " TEXT");
-                version = VER_SESSION_HASHTAG;
-        }
+//        switch (version) {
+//            case VER_LAUNCH:
+//                // Version 19 added column for session hashtags.
+//                db.execSQL("ALTER TABLE " + Tables.SESSIONS + " ADD COLUMN "
+//                        + SessionsColumns.HASHTAG + " TEXT");
+//                version = VER_SESSION_HASHTAG;
+//        }
 
         Log.d(TAG, "after upgrade logic, at version " + version);
         if (version != DATABASE_VERSION) {

@@ -22,7 +22,7 @@ net.bespokesystems.android.apps.wicsa2011
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.bespokesystems.android.apps.wicsa2011" 
     android:versionCode="1" 
-   	android:versionName="0.1">
+   	android:versionName="0.2">
 
     <uses-sdk
         android:minSdkVersion="7"

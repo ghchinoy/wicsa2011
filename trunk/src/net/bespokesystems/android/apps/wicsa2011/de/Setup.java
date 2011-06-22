@@ -23,9 +23,9 @@ public class Setup {
 	public static final String EXTRA_STATUS_RECEIVER = "net.bespokesystems.android.apps.wicsa2011.extra.STATUS_RECEIVER";
 	public static final TimeZone CONFERENCE_TIME_ZONE = TimeZone.getTimeZone("America/Denver");
 
-	public static final String TIME_ZONE = "-0700"; // RFC 822 - time zone
+	public static final String TIME_ZONE = "-0600"; // RFC 822 - time zone
 	// Europe/Berlin +0100
-	// America/Denver -0700
+	// America/Denver -0600
 
 	public static final String DAY1_START = "2011-06-20T08:00:00.000-07:00";
 	public static final String DAY1_END = "2011-06-20T20:00:00.000-07:00";
@@ -56,6 +56,6 @@ public class Setup {
 	public static final String DATABASE_NAME = "schedule_de.db";
 
 	public static final boolean USE_WIFI_CHECK = false;
-	public static final int VER_SESSION_HASHTAG = 3;
+	public static final int VER_SESSION_HASHTAG = 6;
 
 }
