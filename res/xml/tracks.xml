@@ -35,6 +35,31 @@
 		<color>#0FABFF</color>
 		<abstract></abstract>
 	</track>
+	<track>
+		<name>CBSE</name>
+		<color>#A0CE67</color>
+		<abstract></abstract>
+	</track>
+	<track>
+		<name>QoSA</name>
+		<color>#EEB211</color>
+		<abstract></abstract>
+	</track>
+	<track>
+		<name>ISARCS</name>
+		<color>#0066CC</color>
+		<abstract></abstract>
+	</track>
+	<track>
+		<name>Tool Demos</name>
+		<color>#BF0000</color>
+		<abstract></abstract>
+	</track>
+	<track>
+		<name>Case Studies</name>
+		<color>#007A3F</color>
+		<abstract></abstract>
+	</track>
 	<!--
 	<track>
 		<name>Android</name>
