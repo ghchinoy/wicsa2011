@@ -56,6 +56,6 @@ public class Setup {
 	public static final String DATABASE_NAME = "schedule_de.db";
 
 	public static final boolean USE_WIFI_CHECK = false;
-	public static final int VER_SESSION_HASHTAG = 6;
+	public static final int VER_SESSION_HASHTAG = 7;
 
 }

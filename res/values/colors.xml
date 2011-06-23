@@ -16,16 +16,19 @@
 -->
 <resources>
     <color name="title_background_old">#ff355689</color>
-    <color name="title_background">#ff0054AB</color>
+    <color name="title_background_old_de">#ff0054AB</color>
+    <color name="title_background">#ff8B2928</color>
     
     <color name="title_text">#ffffffff</color>
     <color name="title_text_alt">#ff000000</color>
     
     <color name="foreground1_old">#ff355689</color>
-    <color name="foreground1">#ff0054AB</color>
+    <color name="foreground1_old_de">#ff0054AB</color>
+    <color name="foreground1">#ff8B2928</color>
     
     <color name="foreground2_old">#ff7081a3</color>
-    <color name="foreground2">#ff0687FF</color>
+    <color name="foreground2_old_de">#ff0687FF</color>
+    <color name="foreground2">#ffD3513B</color>
     
     <color name="background1">#ffffffff</color>
     
